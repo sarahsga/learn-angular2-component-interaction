@@ -1,0 +1,13 @@
+.row-name {
+    padding: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.row-controls div:first-child {
+    text-align: right;
+}
+
+input {
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+<div class="row row-name">
+  <h4>{{shape.name}}</h4>
+</div>
+<div class="row row-controls">
+  <div class="col-xs-4">
+    <button class="btn btn-success" (click)="add()">+</button>
+  </div>
+  <div class="col-xs-4">
+    <input class="form-control" type="text" [(ngModel)]="shape.quantity" />
+  </div>
+  <div class="col-xs-4">
+    <button class="btn btn-warning" (click)="subtract()">-</button>
+  </div>
+</div>
